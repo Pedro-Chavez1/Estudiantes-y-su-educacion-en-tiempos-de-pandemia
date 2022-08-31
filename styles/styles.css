@@ -1,0 +1,469 @@
+*{
+    padding:0;
+    margin:0;   
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    position: fixed;
+    background-color:#222429;
+    width:100%;
+    margin:auto;
+    padding: 10px 15px;
+    height: 90px;
+}
+
+.nav-contenido{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 35px;
+    width: 100%;
+    height: 65px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.nav-contenido li a{
+    color:rgb(221, 221, 221);
+    margin-left:30px;
+    font-size: 18px;
+    padding: 10px 22px;
+    border-radius: 5px;
+}
+
+.nav-contenido li a:hover{
+    padding:8px 20px;
+    border:2px solid #54c0ff;
+    color: #54c0ff;    
+}
+
+.logo a{
+    color:#eee;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.logo a:hover{
+    color: #54c0ff;
+}
+
+.nav-menu{
+    display:inline-flex;
+}
+
+
+.banner{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image:linear-gradient(0deg, #0b65b9 20%, #9227f7 80%);
+    height:100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.circulo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 90px;
+    width: 500px;
+    height: 500px;
+    background-color: #eee;
+    border-radius: 50%;
+    color:#0e7bb9;
+}
+
+.circulo1 h1{
+    padding: 30px;
+    font-size: 80px;
+    letter-spacing: 2px;
+}
+
+.circulo1 h2{
+    letter-spacing: 20px;
+    font-size: 25px;
+    font-weight: 300;
+    margin-left: 35px;
+}
+
+.circulo1 i{
+    margin-top:50px;
+    width: 50px;
+    border: 3px solid #0e7bb9;
+    border-radius: 5px;
+}
+
+
+.contenido{
+    padding: 100px 0 50px 0;
+    width: 60%;
+    margin: auto;
+    line-height: 25px;
+}
+
+.titulo{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+p{
+    padding-top:25px;
+    text-align: justify;
+}
+
+.informate {
+    height:80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.tema h3{
+    text-align: center;
+}
+
+#img-circular1 {
+    background-image: url(../src/index/informate/educacion-moderna.jpg);
+}
+
+#img-circular2 {
+    background-image: url(../src/index/informate/educacion-a-distancia.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#img-circular3 {
+    background-image: url(../src/index/informate/mejoramiento-de-la-educacion.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.circulo2 {
+    margin: auto;
+    margin-bottom: 15px;
+    width: 200px;
+    height: 200px;
+    background-color: #eee;
+    border-radius: 50%;
+    color:#0e7bb9;
+}
+
+.circulo2:hover {
+    width: 250px;
+    height: 250px;
+}
+
+#descubre {
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+#imagen-cuadro-1 {
+    background-image:linear-gradient(rgba(7, 10, 16, 0.111), rgba(5, 7, 12, 0.75)), url(../src/index/descubre/estudiantes-a-distancia-presencial.jpeg);
+}
+
+#imagen-cuadro-2 {
+    background-image:linear-gradient(rgba(7, 10, 16, 0.111), rgba(5, 7, 12, 0.75)), url(../src/index/descubre/distractores-clases-virtuales.jpg);
+}
+
+#imagen-cuadro-3 {
+    background-image:linear-gradient(rgba(7, 10, 16, 0.111), rgba(5, 7, 12, 0.75)), url(../src/index/descubre/consecuencias-eduacion-a-distancia.jpg);
+}
+
+#imagen-cuadro-4 {
+    background-image:linear-gradient(rgba(7, 10, 16, 0.111), rgba(5, 7, 12, 0.75)), url(../src/index/descubre/dispositivos-moviles-en-la-educacion.jpg);
+}
+
+#imagen-cuadro-5 {
+    background-image:linear-gradient(rgba(7, 10, 16, 0.111), rgba(5, 7, 12, 0.75)), url(../src/index/descubre/retos-a-ditancia-en-la-educacion.jpg);
+}
+
+#imagen-cuadro-6 {
+    background-image:linear-gradient(rgba(7, 10, 16, 0.111), rgba(5, 7, 12, 0.75)), url(../src/index/descubre/soluciones-eduacion-a-distancia.jpg);
+}
+
+.titulo-descubre {
+    margin-bottom: 35px;
+}
+
+.descubre-cuadro {
+    margin:20px 20px;
+    border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	background-size: cover;
+	background-position: center;
+    background-color: red;
+}
+
+#imagen-cuadro-1:hover {
+    background-image:linear-gradient(rgba(2, 3, 5, 0.593), rgba(2, 3, 5, 0.593)), url(../src/index/descubre/estudiantes-a-distancia-presencial.jpeg);
+}
+
+#imagen-cuadro-2:hover {
+    background-image:linear-gradient(rgba(2, 3, 5, 0.593), rgba(2, 3, 5, 0.593)), url(../src/index/descubre/distractores-clases-virtuales.jpg);
+}
+
+#imagen-cuadro-3:hover {
+    background-image:linear-gradient(rgba(2, 3, 5, 0.593), rgba(2, 3, 5, 0.593)), url(../src/index/descubre/consecuencias-eduacion-a-distancia.jpg);
+}
+
+#imagen-cuadro-4:hover {
+    background-image:linear-gradient(rgba(2, 3, 5, 0.593), rgba(2, 3, 5, 0.593)), url(../src/index/descubre/dispositivos-moviles-en-la-educacion.jpg);
+}
+
+#imagen-cuadro-5:hover {
+    background-image:linear-gradient(rgba(2, 3, 5, 0.593), rgba(2, 3, 5, 0.593)), url(../src/index/descubre/retos-a-ditancia-en-la-educacion.jpg);
+}
+
+#imagen-cuadro-6:hover {
+    background-image:linear-gradient(rgba(2, 3, 5, 0.593), rgba(2, 3, 5, 0.593)), url(../src/index/descubre/soluciones-eduacion-a-distancia.jpg);
+}
+
+.descubre-cuadro .textos {
+    height: 100%;
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.descubre {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+    /* footer */
+.footer {
+    margin-top: 45px;
+    position: relative;
+    background: #EF233C;
+}
+
+.footer .contenido1 {
+    padding: 60px 0 0 0;
+}
+
+.footer .footer-info {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.footer .footer-info h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.footer .footer-info h3 {
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.footer .footer-menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .footer-menu p {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 0 15px;
+    border-right: 1px solid #ffffff;
+}
+
+
+.footer .copyright {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+.footer .copyright p {
+    margin: 0;
+    color: #ffffff;
+}
+
+.footer .copyright p {
+    text-align: center;
+}
+
+.footer .copyright p a {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.footer .copyright p a:hover {
+    color: #414141;
+}
+
+.footer .copyright p strong:hover {
+    color: #414141;
+}
+
+
+
+@media screen and (max-width: 800px){
+
+    .nav-menu li a{
+        margin-left: 0;
+        padding:15px;
+        display:block;
+    }
+
+    .nav-contenido {
+        padding: 0;
+    }
+
+    .nav-menu li a:hover{
+        padding:18px;
+    }
+
+
+    .circulo1{
+        border-radius: 10%;
+        width: 80%;        
+    }
+
+    .circulo1 h1{
+        width: 100%;
+        padding: 10px;
+        background-color: #272e42;
+        color:#3794fd;
+        font-size:50px;
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    .circulo1 h2{
+        font-size: 100%;
+    }
+
+    .circulo1 i{
+        margin-top:20px;
+    }
+
+    .contenido{
+        width:70%;
+        padding-top: 30px;
+    }
+
+    .titulo{
+        font-size:22px;
+    }
+
+    .informate {
+        height:auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textos {
+        width: 100%;
+        height: 100%;
+    }
+
+    .descubre-cuadro .textos h3{
+        height: auto;
+        width: auto;
+    }
+
+
+    
+    .tema h3{
+        text-align: center;
+    }
+
+    .circulo2 {
+        margin: auto;
+        margin-top: 80px;
+        margin-bottom: 15px;
+        width: 200px;
+        height: 200px;
+        background-color: #eee;
+        border-radius: 50%;
+        color:#0e7bb9;
+    }
+
+    .contenido h2 {
+        font-size:18px;
+    }
+
+    .contenido p{
+        font-size: 15px;
+    }
+
+    .descubre {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulo-descubre{
+        margin-top: 50px;
+    }
+
+    .descubre-cuadro {
+        width: 80%;
+        height: auto;
+        margin:10px 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+
+    .titulo-descubre {
+        font-size:22px;
+    }
+
+    /* Footer */
+    .footer .footer-info h2 {
+        margin-bottom: 20px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .footer .footer-info h3 {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+
+    .footer .footer-menu p {
+        font-size: 10px;
+        padding: 0 5px;
+    }
+
+    .footer .copyright{
+        font-size: 10px;
+    }
+}
